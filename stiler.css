@@ -2,15 +2,18 @@ body{
     font-family: 'Comic Sans MS', sans-serif;
     font-size:20px;
     background-color: beige;
+    overflow:auto;
+    margin:0px;
 }
+
 header{
     background-color:purple;
     color:white;
-    padding:10px;
-    border-radius: 20px;
+    padding:30px;
     text-align: center;
-    margin:5px;
+    margin:0px;
 }
+
 div{
     max-width: 500px;
 }
@@ -30,4 +33,26 @@ footer{
 #potit{
     font-family:'Lucida Console',monospace;
     letter-spacing: 1.1em;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111111;
+}
+nav{
+    position:sticky;
+    top:0;
 }
