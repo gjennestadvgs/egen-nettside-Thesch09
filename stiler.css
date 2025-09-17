@@ -3,6 +3,7 @@
     --bunn-lilla: rgb(170, 113, 167);
     --info-lilla: rgb(85, 14, 82);
     --valgt-lilla: rgb(57, 0, 54);
+    --aktiv-lilla: rgb(129, 0, 123);
 }
 body{
     font-family: 'Comic Sans MS', sans-serif;
@@ -38,12 +39,16 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color:var(--info-lilla);
-  display: flex;
+  overflow: hidden;
+  background-color: var(--info-lilla);
+}
+nav ul li {
+  float: left;
 }
 nav ul li a {
   display: block;
   color: white;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -63,7 +68,6 @@ section{
     float:right;
     background-color: var(--info-lilla);
     margin:0px;
-    display:flex;
     width:75px;
     border-radius: 10px;  
 }
@@ -75,10 +79,36 @@ section{
     top:0px;
     background-color: var(--info-lilla);
     margin:0px;
-    display:flex;
     border-radius: 10px;
 }
 .dark-mode {
   background-color: rgb(41, 33, 40);
   color: white;
+}
+.aktiv{
+    background-color: var(--aktiv-lilla);
+}
+
+div.pixel-galleri{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+div.pg-bilde{
+    margin:5px;
+    border:1px solid, rgb(155, 155, 155);
+    width:180px;
+}
+div.pg-bilde:hover{
+    border:1px solid, rgb(67, 67, 67)
+}
+div.pg-bilde img{
+    width:100%;
+    height:auto;
+}
+div.pg-bilde div.bilde-desk{
+    text-align:center;
+}
+.smol{
+    font-size:.5em;
+    color:grey;
 }
