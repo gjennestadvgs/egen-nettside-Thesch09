@@ -5,22 +5,16 @@ body{
     overflow:auto;
     margin:0px;
 }
-
 header{
-    background-color:purple;
+    background-color:rgb(113, 38, 110);
     color:white;
     padding:30px;
     text-align: center;
     margin:0px;
 }
-
-div{
-    max-width: 500px;
-}
 footer{
     background-color: violet;
     padding:10px;
-    border-radius: 20px;
     font-family:'Lucida Console',monospace;
 }
 .ond-tekst{
@@ -38,21 +32,22 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: rgb(85, 14, 82);
   display: flex;
 }
-
 nav ul li a {
   display: block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
-
 nav ul li a:hover {
-  background-color: #111111;
+  background-color: rgb(57, 0, 54);
 }
 nav{
     position:sticky;
     top:0;
+}
+section{
+    margin:20px;
 }
