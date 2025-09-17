@@ -18,7 +18,7 @@ footer{
     background-color: violet;
     padding:10px;
     border-radius: 20px;
-    font-family:'Lucida Console',monospace
+    font-family:'Lucida Console',monospace;
 }
 .ond-tekst{
     color: red;
@@ -26,4 +26,8 @@ footer{
     padding:5px;
     border-radius: 10px;
     font-family:'impact', sans-serif;
+}
+#potit{
+    font-family:'Lucida Console',monospace;
+    letter-spacing: 1.1em;
 }
