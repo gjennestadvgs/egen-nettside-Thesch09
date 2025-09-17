@@ -1,3 +1,6 @@
+:root{
+    --topp-lilla: rgb(113, 38, 110);
+}
 body{
     font-family: 'Comic Sans MS', sans-serif;
     font-size:20px;
@@ -6,7 +9,7 @@ body{
     margin:0px;
 }
 header{
-    background-color:rgb(113, 38, 110);
+    background-color:var(--topp-lilla);
     color:white;
     padding:30px;
     text-align: center;
@@ -50,4 +53,14 @@ nav{
 }
 section{
     margin:20px;
+}
+#til-topp{
+    position:sticky;
+    bottom:5px;
+    float:right;
+    background-color: rgb(85, 14, 82);
+    margin:0px;
+    display:flex;
+    width:50px;
+    border-radius: 10px;
 }
