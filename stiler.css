@@ -57,18 +57,28 @@ nav{
 section{
     margin:20px;
 }
-#til-topp{
+.til-topp{
     position:sticky;
     bottom:5px;
     float:right;
     background-color: var(--info-lilla);
     margin:0px;
     display:flex;
-    
     width:75px;
-   
+    border-radius: 10px;  
+}
+.til-topp:hover{
+    background-color: var(--valgt-lilla);
+}
+.dag{
+    width:50px;
+    top:0px;
+    background-color: var(--info-lilla);
+    margin:0px;
+    display:flex;
     border-radius: 10px;
 }
-#til-topp:hover{
-    background-color: var(--valgt-lilla);
+.dark-mode {
+  background-color: rgb(41, 33, 40);
+  color: white;
 }
