@@ -88,13 +88,14 @@ section{
 .aktiv{
     background-color: var(--aktiv-lilla);
 }
-
 div.pixel-galleri{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap:50px;
+    padding:10px;
+    grid-template-columns: auto auto auto auto auto;
 }
 div.pg-bilde{
-    margin:5px;
+    margin:3px;
     border:1px solid, rgb(155, 155, 155);
     width:180px;
 }
@@ -107,6 +108,8 @@ div.pg-bilde img{
 }
 div.pg-bilde div.bilde-desk{
     text-align:center;
+    padding:15px;
+    font-size:0.9em;
 }
 .smol{
     font-size:.5em;
