@@ -15,7 +15,7 @@ body{
 header{
     background-color:var(--topp-lilla);
     color:white;
-    padding:30px;
+    padding:10px;
     text-align: center;
     margin:0px;
 }
@@ -114,4 +114,9 @@ div.pg-bilde div.bilde-desk{
 .smol{
     font-size:.5em;
     color:grey;
+}
+.side-ikon{
+    width:50px;
+    margin:0px;
+    padding: 0px;
 }
