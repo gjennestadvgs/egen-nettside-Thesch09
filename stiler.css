@@ -1,5 +1,8 @@
 :root{
     --topp-lilla: rgb(113, 38, 110);
+    --bunn-lilla: rgb(170, 113, 167);
+    --info-lilla: rgb(85, 14, 82);
+    --valgt-lilla: rgb(57, 0, 54);
 }
 body{
     font-family: 'Comic Sans MS', sans-serif;
@@ -16,7 +19,7 @@ header{
     margin:0px;
 }
 footer{
-    background-color: violet;
+    background-color: var(--bunn-lilla);
     padding:10px;
     font-family:'Lucida Console',monospace;
 }
@@ -35,7 +38,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: rgb(85, 14, 82);
+  background-color:var(--info-lilla);
   display: flex;
 }
 nav ul li a {
@@ -45,7 +48,7 @@ nav ul li a {
   text-decoration: none;
 }
 nav ul li a:hover {
-  background-color: rgb(57, 0, 54);
+  background-color: var(--valgt-lilla);
 }
 nav{
     position:sticky;
@@ -58,9 +61,14 @@ section{
     position:sticky;
     bottom:5px;
     float:right;
-    background-color: rgb(85, 14, 82);
+    background-color: var(--info-lilla);
     margin:0px;
     display:flex;
-    width:50px;
+    
+    width:75px;
+   
     border-radius: 10px;
+}
+#til-topp:hover{
+    background-color: var(--valgt-lilla);
 }
