@@ -1,6 +1,7 @@
 body{
     font-family: 'Comic Sans MS', sans-serif;
     font-size:20px;
+    background-color: beige;
 }
 header{
     background-color:purple;
@@ -12,5 +13,10 @@ header{
 }
 div{
     max-width: 500px;
-    
+}
+footer{
+    background-color: violet;
+    padding:10px;
+    border-radius: 20px;
+    font-family:'Lucida Console',monospace
 }
