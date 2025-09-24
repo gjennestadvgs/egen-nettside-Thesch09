@@ -24,6 +24,7 @@ footer{
     background-color: var(--bunn-lilla);
     padding:10px;
     font-family:'Lucida Console',monospace;
+    text-align: left;;
 }
 .ond-tekst{
     color: red;
@@ -160,12 +161,16 @@ div.bilde div.bilde-desk{
     margin-top:5px;
     margin-bottom:5px;
 }
-.bunn{
+.regnbue{
     text-align: center;
     font-size: 0.8em;
     color: black;
     padding: 1px;
     background:linear-gradient(to right,red,yellow,rgb(0, 203, 0),blue,purple,red)
+}
+.rbs-tekst{
+    font-size:1.3em;
+    text-shadow:0 0 2px white;
 }
 .ferdig{
     color:green;
