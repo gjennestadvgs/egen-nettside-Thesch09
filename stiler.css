@@ -13,7 +13,8 @@ body{
     margin:0px;
 }
 header{
-    background-color:var(--topp-lilla);
+    /*background-color:var(--topp-lilla);*/
+    background:linear-gradient(to top, var(--info-lilla),var(--topp-lilla));
     color:white;
     padding:10px;
     text-align: center;
@@ -143,7 +144,7 @@ div.bilde div.bilde-desk{
     border-radius: 10px;
 }
 .sus{
-    color:black;
+    color:currentColor;
     font-style: italic;
     text-decoration:none;
 }
