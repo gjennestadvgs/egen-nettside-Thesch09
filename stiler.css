@@ -167,3 +167,13 @@ div.bilde div.bilde-desk{
     padding: 1px;
     background:linear-gradient(to right,red,yellow,rgb(0, 203, 0),blue,purple,red)
 }
+.ferdig{
+    color:green;
+}
+.ikke-ferdig{
+    color:yellow;
+    text-shadow:0px 0px 2px black;
+}
+.avbrutt{
+    color:red;
+}
