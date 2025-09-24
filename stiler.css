@@ -88,26 +88,26 @@ section{
 .aktiv{
     background-color: var(--aktiv-lilla);
 }
-div.pixel-galleri{
+div.galleri{
     display:grid;
     gap:50px;
     padding:10px;
     grid-template-columns: auto auto auto auto auto;
     overflow:auto;
 }
-div.pg-bilde{
+div.bilde{
     margin:3px;
     border:1px solid, rgb(155, 155, 155);
     width:180px;
 }
-div.pg-bilde:hover{
+div.bilde:hover{
     border:1px solid, rgb(67, 67, 67)
 }
-div.pg-bilde img{
+div.bilde img{
     width:100%;
     height:auto;
 }
-div.pg-bilde div.bilde-desk{
+div.bilde div.bilde-desk{
     text-align:center;
     padding:15px;
     font-size:0.9em;
