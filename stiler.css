@@ -152,3 +152,18 @@ div.bilde div.bilde-desk{
     color:red;
     text-decoration: underline;
 }
+.funy{
+    border-style: dashed;
+    border-width: 2px;
+    overflow:auto;
+    padding:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.bunn{
+    text-align: center;
+    font-size: 0.8em;
+    color: black;
+    padding: 1px;
+    background:linear-gradient(to right,red,yellow,rgb(0, 203, 0),blue,purple,red)
+}
