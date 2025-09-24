@@ -185,3 +185,11 @@ div.bilde div.bilde-desk{
 #farger{
     text-align: left;
 }
+#halloween{
+    background: linear-gradient(to bottom, orange, black);
+    color: white;
+}
+.dekorasjon{
+    float:right;
+    width:50px
+}
