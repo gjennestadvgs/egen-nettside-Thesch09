@@ -132,3 +132,22 @@ div.pg-bilde div.bilde-desk{
     padding:5px;
     margin:5px;
 }
+.gratulerer{
+    font-size:1.5em;
+    font-weight: bold;
+    color:blue;
+}
+.spesiell{
+    margin:10px;
+    background-color:var(--info-lilla);
+    border-radius: 10px;
+}
+.sus{
+    color:black;
+    font-style: italic;
+    text-decoration:none;
+}
+.sus:hover{
+    color:red;
+    text-decoration: underline;
+}
