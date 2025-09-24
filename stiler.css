@@ -93,6 +93,7 @@ div.pixel-galleri{
     gap:50px;
     padding:10px;
     grid-template-columns: auto auto auto auto auto;
+    overflow:auto;
 }
 div.pg-bilde{
     margin:3px;
@@ -119,4 +120,11 @@ div.pg-bilde div.bilde-desk{
     width:50px;
     margin:0px;
     padding: 0px;
+}
+.prosjekt{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding:5px;
+    margin:5px;
 }
