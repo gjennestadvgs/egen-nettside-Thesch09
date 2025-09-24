@@ -116,6 +116,10 @@ div.pg-bilde div.bilde-desk{
     font-size:.5em;
     color:grey;
 }
+.thick-smol{
+    font-weight: bold;
+    color:darkgrey;
+}
 .side-ikon{
     width:50px;
     margin:0px;
