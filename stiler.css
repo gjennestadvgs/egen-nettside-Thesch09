@@ -124,6 +124,17 @@ div.galleri{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     overflow:auto;
 }
+div.g-galleri{
+    display:grid;
+    gap:10px;
+    padding:10px;
+    /*Veldig god ide fra KIen*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    overflow:auto;
+}
+div.g-bilde{
+    max-width:160px;
+}
 div.bilde{
     margin:3px;
     border:1px solid, rgb(155, 155, 155);
@@ -253,13 +264,6 @@ div.regnbue p{
     padding:10px;
     border: black solid 4px;
     border-radius:10px
-}
-.gresskar-div{
-    display:grid;
-    gap:10px;
-    padding:10px;
-    /*Veldig god ide fra KIen*/
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 #gresskar-header{
     background:linear-gradient(to top, orange,black);
