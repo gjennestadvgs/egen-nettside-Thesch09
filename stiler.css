@@ -49,6 +49,7 @@ nav ul {
 }
 nav ul li {
   float: left;
+  min-width:160px;
 }
 nav ul li a {
   display: block;
