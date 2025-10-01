@@ -247,6 +247,23 @@ div.regnbue p{
     float:right;
     width:50px
 }
+.gresskar{
+    background: linear-gradient(to center, black, orange);
+    margin:10px;
+    padding:10px;
+    border: black solid 4px;
+    border-radius:10px
+}
+.gresskar-div{
+    display:grid;
+    gap:10px;
+    padding:10px;
+    /*Veldig god ide fra KIen*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+#gresskar-header{
+    background:linear-gradient(to top, orange,black);
+}
 
 /*Inholdsforgtengelsen på galleri siden*/
 #tegn-topp{
