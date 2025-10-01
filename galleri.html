@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<title>T(h)e(o)gninger</title>
+<title>Galleri</title>
 <link rel="stylesheet" href="stiler.css">
 <meta charset="utf-8">
 </head>
@@ -10,15 +10,23 @@
 <body>
 
 <header>
-    <h1>T(h)e(o)gninger</h1><img src="img/penn.png" alt="Du er på tegne siden" class="side-ikon">
+    <h1>Galleri</h1><img src="img/penn.png" alt="Du er på galleri siden siden" class="side-ikon">
 </header>
 <nav>
     <ul class="links">
         <li><a href="_forside.html">HJEM</a></li>
         <li><a href="prosjekter.html">PROSJEKTER</a></li>
-        <li><a class="aktiv">TEGNINGER</a></li>
+        <!--Fra W3 schools-->
+        <li class="dropdown">
+            <a class="dropbtn, aktiv">TEGNINGER</a>
+            <div class="dropdown-content">
+                <a class="aktiv">Galleri</a>
+                <a href="guide.html">Guide</a>
+            </div>
+        </li>
         <li><a href="morsomt.html">MORSOMT</a></li>
         <li><a href='halloween.html'>SESONG</a></li>
+
         <li style="float:right"><img src="img/moon-sun.png" alt="Dag modus" class="dag" onclick="myFunction()"></li>
     </ul>
 </nav>
