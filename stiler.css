@@ -54,7 +54,8 @@ nav ul {
 }
 nav ul li {
   float: left;
-  min-width:160px;
+  min-width:140px;
+  font-size:0.9em;
 }
 nav ul li a {
   display: block;
@@ -70,7 +71,7 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
   display: none;
   position: absolute;
   background-color: var(--info-lilla);
-  min-width: 160px;
+  min-width: 140px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -78,7 +79,7 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
   display: block;
 }
 .dag{
-    width:50px;
+    width:40px;
     top:0px;
     background-color: var(--info-lilla);
     margin:0px;
@@ -117,9 +118,10 @@ section{
 /*Galleri stil*/
 div.galleri{
     display:grid;
-    gap:50px;
+    gap:10px;
     padding:10px;
-    grid-template-columns: auto auto auto auto auto;
+    /*Veldig god ide fra KIen*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     overflow:auto;
 }
 div.bilde{
