@@ -115,7 +115,7 @@ div.bilde img{
 div.bilde div.bilde-desk{
     text-align:center;
     padding:15px;
-    font-size:0.9em;
+    font-size:0.85em;
 }
 div.bilde div.lagd-i{
     text-align:center;
@@ -124,6 +124,10 @@ div.bilde div.lagd-i{
 }
 .smol{
     font-size:.5em;
+    color:grey;
+}
+.smoler{
+    font-size:.3em;
     color:grey;
 }
 .thick-smol{
