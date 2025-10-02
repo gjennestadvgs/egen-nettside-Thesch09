@@ -1,0 +1,275 @@
+/*Farger*/
+:root{
+    --topp-lilla: rgb(113, 38, 110);
+    --bunn-lilla: rgb(170, 113, 167);
+    --info-lilla: rgb(85, 14, 82);
+    --valgt-lilla: rgb(57, 0, 54);
+    --aktiv-lilla: rgb(129, 0, 123);
+}
+/*Ting som er på alle sider*/
+body{
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size:20px;
+    background-color: beige;
+    overflow:auto;
+    margin:0px;
+}
+header{
+    background:linear-gradient(to top, var(--info-lilla),var(--topp-lilla));
+    color:white;
+    padding:10px;
+    text-align: center;
+    margin:0px;
+}
+footer{
+    background-color: var(--bunn-lilla);
+    padding:10px;
+    font-family:'Lucida Console',monospace;
+    text-align: left;;
+}
+
+/*Morsom tekst*/
+.ond-tekst{
+    color: red;
+    background-color: black;
+    padding:5px;
+    border-radius: 10px;
+    font-family:'impact', sans-serif;
+}
+#potit{
+    font-family:'Lucida Console',monospace;
+    letter-spacing: 1.1em;
+}
+
+/*Frem til den neste kommentaren er det egentlig kun navbar ting*/
+.innhold{
+    list-style-type:none;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--info-lilla);
+}
+nav ul li {
+  float: left;
+  min-width:140px;
+  font-size:0.9em;
+}
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover, .dropdown:hover .dropbtn {
+  background-color: var(--valgt-lilla);
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--info-lilla);
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dag{
+    width:40px;
+    top:0px;
+    background-color: var(--info-lilla);
+    margin:0px;
+    border-radius: 10px;
+}
+.dark-mode {
+  background-color: rgb(41, 33, 40);
+  color: white;
+}
+.aktiv{
+    background-color: var(--aktiv-lilla);
+}
+nav{
+    position:sticky;
+    top:0;
+}
+
+section{
+    margin:20px;
+}
+
+/*Pil til toppen av siden*/
+.til-topp{
+    position:sticky;
+    bottom:10px;
+    float:right;
+    background-color: var(--info-lilla);
+    margin:0px;
+    width:75px;
+    border-radius: 10px;  
+}
+.til-topp:hover{
+    background-color: var(--valgt-lilla);
+}
+
+/*Galleri stil*/
+div.galleri{
+    display:grid;
+    gap:10px;
+    padding:10px;
+    /*Veldig god ide fra KIen*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    overflow:auto;
+}
+div.g-galleri{
+    display:grid;
+    gap:10px;
+    padding:10px;
+    /*Veldig god ide fra KIen*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    overflow:auto;
+}
+div.g-bilde{
+    max-width:160px;
+}
+div.bilde{
+    margin:3px;
+    border:1px solid, rgb(155, 155, 155);
+    width:180px;
+}
+div.bilde:hover{
+    border:1px solid, rgb(67, 67, 67)
+}
+div.bilde img{
+    width:100%;
+    height:auto;
+}
+div.bilde div.bilde-desk{
+    text-align:center;
+    padding:15px;
+    font-size:0.85em;
+}
+div.bilde div.lagd-i{
+    text-align:center;
+    font-size:.7em;
+    font-style:italic;
+}
+/*Smol tekst*/
+.smol{
+    font-size:.5em;
+    color:grey;
+}
+.smoler{
+    font-size:.3em;
+    color:grey;
+}
+.thick-smol{
+    font-weight: bold;
+    color:darkgrey;
+}
+/*Ikon for siden. Jeg la dette til fordi jeg ville tegne*/
+.side-ikon{
+    width:50px;
+    margin:0px;
+    padding: 0px;
+}
+/*Boks for prosjekter*/
+.prosjekt{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding:5px;
+    margin:5px;
+}
+/*Hemmelig side 1 ting*/
+.gratulerer{
+    font-size:1.5em;
+    font-weight: bold;
+    color:blue;
+}
+.spesiell{
+    margin:10px;
+    background-color:var(--info-lilla);
+    border-radius: 10px;
+}
+
+/*Sjult link*/
+.sus{
+    color:currentColor;
+    font-style: italic;
+    text-decoration:none;
+}
+.sus:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+/*Morsomt siden*/
+.funy{
+    border-style: dashed;
+    border-width: 2px;
+    overflow:auto;
+    padding:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+/*Det som er på bunnen av hver side*/
+.regnbue{
+    text-align: center;
+    font-size: 0.8em;
+    color: black;
+    padding: 1px;
+    background:linear-gradient(to right,red,yellow,rgb(0, 203, 0),blue,purple,red)
+}
+div.regnbue p{
+    text-shadow: white 0px 0px 2px;
+}
+
+/*Tekst på regnbue siden*/
+.rbs-tekst{
+    font-size:1.3em;
+    text-shadow:0 0 2px white;
+}
+/*Status for prosjekter på prosjekter siden*/
+.ferdig{
+    color:green;
+}
+.ikke-ferdig{
+    color:yellow;
+    text-shadow:0px 0px 2px black;
+}
+.avbrutt{
+    color:red;
+}
+/*Farge listen på regnbue siden*/
+#farger{
+    text-align: left;
+}
+/*Halloween side ting*/
+#halloween{
+    background: linear-gradient(to bottom, orange, black);
+    color: white;
+}
+.dekorasjon{
+    float:right;
+    width:50px
+}
+.gresskar{
+    background: linear-gradient(to center, black, orange);
+    margin:10px;
+    padding:10px;
+    border: black solid 4px;
+    border-radius:10px
+}
+#gresskar-header{
+    background:linear-gradient(to top, orange,black);
+}
+
+/*Inholdsforgtengelsen på galleri siden*/
+#tegn-topp{
+    margin:10px;
+}

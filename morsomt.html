@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Morsomt</title>
+<link rel="stylesheet" href="stiler.css">
+<meta charset="utf-8">
+</head>
+
+<body>
+
+<header>
+    <h1>Theodor</h1><img src="img/funny.png" alt="Du er morsom siden" class="side-ikon">
+</header>
+<nav>
+    <ul class="links">
+        <li><a href="index.html">HJEM</a></li>
+        <li><a href="prosjekter.html">PROSJEKTER</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)">TEGNINGER</a>
+            <div class="dropdown-content">
+                <a href="galleri.html">Galleri</a>
+                <a href="guide.html">Guide</a>
+            </div>
+        </li>
+        <li><a class="aktiv">MORSOMT</a></li>
+        <li><a href='halloween.html'>SESONG</a></li>
+        <li style="float:right"><img src="img/moon-sun.png" alt="Dag modus" class="dag" onclick="myFunction()"></li>
+    </ul>
+</nav>
+<section>
+    <h2>Morsomt</h2>
+    <p>Her er en kolleksjon av ting jeg syns er morsomme</p>
+
+    <div class="funy">
+        <h3>Heavy is Dead</h3>
+        <!--(family friendly versjonen for YouTube er dum)-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wV3fNs53o4k?si=-NFQZG_uDM3Qvrkh" title="Heavy is Dead"></iframe>
+    </div>
+    <div class="funy">
+        <h3>Albuquerque (av Weird Al)</h3>
+        <a target="_blank" href="https://www.youtube.com/watch?v=JE37e1eK2mY">Albuquerque</a>
+    </div>
+    <div class="funy">
+        <h3>Friendzoned by a skeleton</h3>
+        <p class="smol">Dette er det beste bilde jeg fant</p>
+        <a target="_blank" href="https://no.pinterest.com/pin/i-wanna-marry-that-skeleton--281543710175746/"><img src='https://i.pinimg.com/736x/34/9a/85/349a850bab2ff4057ae8604491c925b5.jpg' alt='Morsomt Tumblr innlegg' width="300px"></a>
+    </div>
+
+    <img src="img/arrow.png" alt="Pil opp" class="til-topp" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"><br><br>
+</section>
+<footer>
+    <p><strong>Hvordan kontakte meg: </strong>Kom til meg fysisk og håp at jeg sier hva discord kontoen min er</p>
+    <p><strong>Copyright:</strong> Theodor Schaathun</p>
+    <p class="smol"><span class='thick-smol'>Github: </span> <a href='https://github.com/Thesch09'target="blank_">Github</a></p>
+</footer>
+<div class="regnbue">
+    <p>Hver side har sin egen tekst her</p>
+</div>
+<!--Dette er fra w3-->
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>

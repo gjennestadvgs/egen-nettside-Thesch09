@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Theodor</title>
+<link rel="stylesheet" href="stiler.css">
+<meta charset="utf-8">
+</head>
+
+<body>
+
+<header>
+    <h1>Theodor</h1><img src="img/hus.png" alt="Du er på forsiden" class="side-ikon">
+</header>
+<nav>
+    <ul class="links">
+        <li><a class="aktiv">HJEM</a></li>
+        <li><a href="prosjekter.html">PROSJEKTER</a></li>
+        <!--Fra W3 schools-->
+        <li class="dropdown">
+            <a href="javascript:void(0)">TEGNINGER</a>
+            <div class="dropdown-content">
+                <a href="galleri.html">Galleri</a>
+                <a href="guide.html">Guide</a>
+            </div>
+        </li>
+        <li><a href="morsomt.html">MORSOMT</a></li>
+        <li><a href='halloween.html'>SESONG</a></li>
+        <li style="float:right"><img src="img/moon-sun.png" alt="Dag modus" class="dag" onclick="myFunction()"></li></li>
+    </ul>
+</nav>
+
+<section id="om-meg">
+
+    <h2>Om meg</h2>
+    <p>Jeg heter Theodor Schaathun og jeg er 16 år. Akkurat nå går jeg på <a class='sus' target='_blank' href='https://www.gjennestadvgs.no/'>Gjennestad VGS</a> på 1IM. Jeg liker å programmere, spille og høre på musikk. Akuratt så holder jeg på å spille <a class="sus" target="blank_" href="https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/">Hollow Knight: Silksong</a> som blir mitt GOTY, kun fordi at jeg har ikke spilt <em>Expedition 33 Obscuria</em> og jeg vet ikke helt om <em>Deltarune</em> telles som et spill fra i år. </p>
+    <ul>Utvided liste om ting jeg liker:
+        <li>Programmering</li>
+        <li>Spill</li>
+        <li>Musikk</li>
+        <li>Mat</li>
+        <li>Deltarune</li>
+        <li>Hollow Knight</li>
+        <li>Silksong (selv om det noen ganger er liiiitt for vanskelig)</li>
+        <li>Tegning</li>
+        <li>Persona (spesielt P5R)</li>
+        <li>Delicious in Dungeon (Dungeon Meshi)</li>
+        <li><strong id='potit'>POTET</strong></li>
+    </ul>
+    <p><br>Jeg liker <span class="ond-tekst">IKKE KI/AI</span> <span class='smol'>(untatt når det er morsomt)</span></p>
+    <!--Takk til KIen for den onclick tingen, den var kul-->
+    <img src="img/arrow.png" alt="Pil opp" class="til-topp" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"><br><br>
+</section>
+
+<footer>
+    <p><strong>Hvordan kontakte meg: </strong>Kom til meg fysisk og håp at jeg sier hva discord kontoen min er</p>
+    <p><strong>Copyright:</strong> Theodor Schaathun</p>
+    <p class="smol"><span class='thick-smol'>Github: </span> <a href='https://github.com/Thesch09'target="blank_">Github</a></p>
+</footer>
+<div class="regnbue">
+    <p>Du har nådd bunnen</p>
+</div>
+<!--Dette er fra w3-->
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>

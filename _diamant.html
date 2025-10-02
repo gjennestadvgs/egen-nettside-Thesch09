@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Hemmelig side</title>
+<link rel="stylesheet" href="stiler.css">
+<meta charset="utf-8">
+</head>
+
+<body>
+
+<header>
+    <h1>Hemmelig Side!</h1><img src="img/diamant.png" alt="Du er på den hemmelige siden" class="side-ikon">
+</header>
+<nav>
+    <ul class="links">
+        <li style="float:right"><img src="img/moon-sun.png" alt="Dag modus" class="dag" onclick="myFunction()"></li>
+    </ul>
+</nav>
+<section id="diamant">
+    <h2>Hemmelig side!!!</h2>
+    <p><span class="gratulerer">GRATULERER!!! </span> Du har funnet den hemmelige siden på denne nettsiden :D<br>Her er 3 til diamanter</p>
+    <img src="img/diamant.png" alt="diamant" class="spesiell">
+    <img src="img/diamant.png" alt="diamant" class="spesiell">
+    <img src="img/diamant.png" alt="diamant" class="spesiell">
+    <p>Dette er alt, det er ingenting annet her...<br>definitivt ikke <a href="_forside.html" class="sus">her</a></p>
+    <h3>Trykk på huset for å komme deg til forsiden</h3>
+    <a href="index.html"><img src="img/hus.png" alt="Hus" class="spesiell" width="50px"></a>
+    <img src="img/arrow.png" alt="Pil opp" class="til-topp" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"><br>
+</section>
+<footer>
+    <p><strong>Hvordan kontakte meg: </strong>Kom til meg fysisk og håp at jeg sier hva discord kontoen min er</p>
+    <p><strong>Copyright:</strong> Theodor Schaathun</p>
+    <p class="smol"><span class='thick-smol'>Github: </span> <a href='https://github.com/Thesch09'target="blank_">Github</a></p>
+
+</footer>
+<!--Enda en hemmelig side-->
+<div class="regnbue">
+    <p><a class='sus' href='regnbueside.html'>Hemmelig bunn!!!</a></p>
+</div>
+<!--Dette er fra w3-->
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>

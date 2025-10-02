@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Prosjekter</title>
+<link rel="stylesheet" href="stiler.css">
+<meta charset="utf-8">
+</head>
+
+<body>
+
+<header>
+    <h1>Theodor</h1><img src="img/prosjekter.png" alt="Du er på prosjekt siden" class="side-ikon">
+</header>
+<nav>
+    <ul class="links">
+        <li><a href="index.html">HJEM</a></li>
+        <li><a class="aktiv">PROSJEKTER</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)">TEGNINGER</a>
+            <div class="dropdown-content">
+                <a href="galleri.html">Galleri</a>
+                <a href="guide.html">Guide</a>
+            </div>
+        </li>
+        <li><a href="morsomt.html">MORSOMT</a></li>
+        <li><a href='halloween.html'>SESONG</a></li>
+        <li style="float:right"><img src="img/moon-sun.png" alt="Dag modus" class="dag" onclick="myFunction()"></li>
+    </ul>
+</nav>
+<section>
+    <h2>Prosjekter</h2>
+    <p>Her er de prosjektene vi har hatt så langt dette skoleåret</p>
+    <div>
+        <h2>Medieproduktsjon</h2>
+        <div class="prosjekt">
+            <h3 class="ferdig">Lag en film plakat</h3>
+            <p>I dette prosjektet skulle vi gå 2 og 2 og bruke photoshop til å lage filmplakater. Jeg og Kasper lagde en plakat til en fiksjonell film som heter 'Silksong: The Last Judge' som er basert på karakteren Last Judge fra Hollow Knight Silksong.</p>
+            <img src="img/silksong-the-last-judge.jpg" alt="Silksong The Last Judge plakat" width="300px">
+        </div>
+        <div class="prosjekt">
+            <h3 class="ferdig">Velg din stil</h3>
+            <p>I dette prosjektet skulle man velge en stil og ta 6 bilder innen den stilen. Jeg valgte å ta portretter og så sette de bildene inn i et spill/tv serie</p>
+            <img src="img/tf2-meme-but-kasper.jpg" alt="Den klassiske I fear no man memen fra TF2, men med kasper"width='300px'><img src="img/tennas-set-but-kasper.jpg" alt="Tennas set, men kasper er tenna" width="300px"><img src="img/burning-house-kasper.jpg" alt="Burning house memen, men Kasper" width="300px"><img src="img/pomni-men-meg.jpg" alt="Pomni i sluttet av The amazing digital circus episode 1, men det er meg" width="300px"><img src='img/meg-i-fnaf-1.jpg' alt="Jeg er golden freddy i FNAF 1" width="300px"><img src="img/guys-look-bilewater.jpg" alt="Kasper er i vannet i bilewater" width="300px">
+        </div>
+        <div class="prosjekt">
+            <h3 class="ferdig">Få en kjedelig ting til å se kul ut</h3>
+            <p>I dette prosjektet ble vi delt i grupper med hver sin <em>kjedelig</em> ting å ta bilde av. Vi fikk et forstørrelses glass for å fikse på kabler med, som så litt ut som en person. Favoritt bilde mitt er det på månen</p>
+            <img src="img/ting-paa-maanen.jpg" alt="Den forstørrelses glass tingen på månen" width="300px">
+        </div>
+    </div>
+    <div>
+        <h2>Informasjonsteknologi</h2>
+        <div class="prosjekt">
+            <h3 class="ferdig">Lag et visitkort</h3>
+            <p>I ditte prosjektet skulle vi lage et visitkort ved bruk av HTML og CSS</p>
+        </div>
+        <div class="prosjekt">
+            <h3 class="avbrutt">Lag en hobby guide</h3>
+            <p>I dette prosjektet skulle vi lage en guide til en hobby. Jeg valgte å lage en guide for tegning. Jeg ble ikke helt ferdig fordi at vi begynte på dette prosjektet, men jeg har brukt det jeg skrev der i <a href="guide.html">guide</a> siden</p>
+        </div>
+
+        <div class="prosjekt">
+            <h3 class="ikke-ferdig">Lag en nettside (denne nettsiden)</h3>
+            <p>I dette prosjektet skal vi lage en nettside om oss med en 'om meg' og 'prosjekter' side (HJEM og PROSJEKTER). Du er på dette prosjektet NÅ!</p>
+        </div>
+    </div>
+
+</section>
+<img src="img/arrow.png" alt="Pil opp" class="til-topp" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"><br><br><br>
+<footer>
+    <p><strong>Hvordan kontakte meg: </strong>Kom til meg fysisk og håp at jeg sier hva discord kontoen min er</p>
+    <p><strong>Copyright:</strong> Theodor Schaathun</p>
+    <p class="smol"><span class='thick-smol'>Github: </span> <a href='https://github.com/Thesch09'target="blank_">Github</a></p>
+</footer>
+<div class="regnbue">
+    <p>Kilden av inspirasjon</p>
+</div>
+<!--Dette er fra w3-->
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
